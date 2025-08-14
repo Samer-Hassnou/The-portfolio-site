@@ -1,0 +1,37 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    width: 100%;
+    max-width: 900px;
+    margin: 30px auto 0;
+    padding: 25px;
+ 
+    background-color: var(--dark-bg);
+    color: var(--medium-text);
+    font-size: 0.9rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    box-shadow: 0 -2px 8px var(--color-19);
+    
+}
+
+
+.footer::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    right: 20%;
+    height: 2px;
+  
+    background: linear-gradient(to right, transparent, var(--primary-color), transparent);
+}
+
+.footer p {
+    margin: 0;
+    
+}

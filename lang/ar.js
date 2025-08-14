@@ -1,0 +1,115 @@
+window.translations ={
+            'meta-title': 'AWS س ح | مهندس سحابة',
+            'meta-description': '  س ح، مهندس   معتمد كمهندس حلول من AWS.',
+            'meta-keywords': 'مجمل أعمال, س ح | مهندس سحابة, HTML, CSS, JavaScript, تطوير الويب,   البنى السحابية,   , السيرة الذاتية  ,   ',
+            'meta-image-alt': 'مجمل أعمال س ح',
+            'og-title': 'س ح | مهندس حلول سحابية معتمد',
+            'og-description': 'مسيرةأعمال تعرض مشاريع البنية التحتية السحابية، شهادات AWS، وخبرات في DevOps.',
+            'og-image-alt': 'س ح - مسيرةأعمال مهندس سحابي',
+
+            'profile-name': 'س ح ',
+            'profile-title': 'مهندس إدارة البنى السحابية',
+            'nav-about': 'من أنا!',
+            'nav-certificates': 'الشهادات',
+            'nav-education': 'التعليم', 
+            'nav-experience': 'الخبرة',
+            'nav-skills': 'المهارات',
+            'nav-projects': 'المشاريع',
+            'nav-contact': 'للتواصل',
+            'download-cv-btn': 'تنزيل السيرة الذاتية (PDF)',
+  
+            'about-me-header': 'من أنا !',
+            'about-short-desc': 'من أنا ! من أنا !',
+            'about-detailed-desc-p1': 'من أنا ! من أنا ! من أنا !',
+  
+            'certificates-header': 'الشهادات',
+            'certificates-short-desc': 'شهادات  :.',
+            'cert-1-title': 'شهادة AWS Solutions Architect - Associate',
+            'cert-1-issuer': 'Amazon Web Services (AWS)',
+            'cert-1-date': '(04/2020 - 04/2028)',
+            'cert-1-link': 'عرض الشهادة',
+
+            'cert-4-title': 'شهادة AWS Certified Cloud Practitioner',
+            'cert-4-issuer': 'Amazon Web Services (AWS)',
+            'cert-4-date': '(08/2020 - 08/2027)',
+            'cert-4-link': 'عرض الشهادة',
+            
+            'education-header': 'التعليم',
+            'education-short-desc': 'التعليم.',
+            
+            'edu-2-title': 'مهندس سحابة إلكترونية',
+            'edu-2-institution': 'معهد  Digital Career Institute GmbH - DCI',
+            'edu-2-duration': '11/2033',
+            'edu-2-desc': 'الحوسبة السحابية',
+            'edu-2-img': 'images/icon_dci.png',
+
+            'edu-1-title': 'ماجستير ',
+            'edu-1-institution': 'جامعة دمشق',
+            'edu-1-duration': '  دمشق',
+            'edu-1-desc': 'سنوات من الدراسة الأكاديمية.',
+            'edu-1-img': 'images/icon_master_arabic.png',
+
+            'experience-header': 'الخبرة',
+            'experience-short-desc': 'أكثر من عشرين عامًا.',
+            
+            'exp-job1-title': 'مهندس سحابة AWS ',
+            'exp-job1-duration': 'Nov 2033 – 2598',
+            'exp-job1-desc1': 'تصميم  AWS.',
+            'exp-job1-desc2': 'العمل.',
+            'exp-job1-desc3': 'تسليم.',
+
+            'exp-job2-title': 'تطوير الذات',
+            'exp-job2-duration': '2000 – 2022',
+            'exp-job2-desc1': 'التركيز على الرفاهية الشخصية .',
+            
+            'skills-header': 'المهارات',
+            'skills-short-desc': 'الألغاز المعقدة',
+         
+            'skills-cloud': 'السحابة / ديف أوبس',
+            'skills-high-availability': 'تصميم حلول مرنة',
+                    
+            'skills-programming': 'الأدوات',
+            'skills-tools-dev': 'أدوات ديف أوبس والتطوير',
+            'skills-soft-language': 'المهارات الشخصية',
+            'soft-analytical': 'التفكير التحليلي',
+ 
+            'projects-header': 'المشاريع',
+            'projects-short-desc': 'السحابة التقنية',
+
+            'pro-1-title': 'هندسة سحابة AWS',
+            'pro-1-tech': 'GitHub Actions، Docker، AWS',
+
+            'pro-1-desc': 'الأمان.',
+            'pro-1-link': 'عرض تفاصيل المشروع',
+
+            'languages-header': 'اللغات',
+            'languages-short-desc': 'اللغات:',
+            'lang-1-name': 'الإنجليزية',
+            'lang-1-level': 'بطلاقة',
+            'lang-1-img': 'images/icon_english.png',
+            'lang-2-name': 'العربية',
+            'lang-2-level': 'لغة أم',
+            'lang-2-img': 'images/icon_arabic.png',
+            'lang-3-name': 'الألمانية',
+            'lang-3-level': 'متوسط',
+            'lang-3-img': 'images/icon_german.png',
+ 
+            'contact-header': 'للتواصل',
+            'contact-short-desc': ':-)',
+            'contact-email-desc': 'البريد الإلكتروني',
+            'contact-email': 'aaa@hassnou.com',
+            'contact-phone-desc': 'موبايل - واتس آب',
+            'contact-phone': '+49 000 0000 0000',
+            'contact-linkedin-desc': 'لينكد إن',
+            'contact-linkedin': 'ملف لينكد إن',
+            'contact-github-desc': 'جيت هاب',
+            'contact-github': 'ملف جيت هاب',
+            'cv-filename': 'SH-ar.pdf', 
+
+            'copyright': '&copy; Portfolio Owner ',
+
+            'error-header': 'الصفحة غير موجودة',
+            'error-message': 'الصفحة التي تبحث عنها ربما تمت إزالتها أو تغيير اسمها أو أنها غير متوفرة مؤقتاً.',
+            'error-home-link': 'العودة للصفحة الرئيسية',
+            'nav-home': 'الرئيسية',
+}

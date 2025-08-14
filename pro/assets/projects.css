@@ -1,0 +1,294 @@
+/*
+  ========================================
+  Project specific styles
+  ========================================
+*/
+
+.accordion-header h2 {
+  border-radius: 50%;
+}
+
+.corner-image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.image-link {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: transparent; /* نخلي النص مخفي في الأصل */
+}
+
+.hover-text {
+  position: absolute;
+  bottom: 10px;  /* مكان ظهور النص تحت الصورة */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none; /* حتى لا يؤثر على التفاعل مع الصورة */
+}
+
+.image-link:hover .hover-text {
+  opacity: 1; /* تظهر الكلمة عند المرور */
+  color: white;
+}
+
+/* ====== تنسيق نصوص المشروع ====== */
+.project-description-long p,
+.project-description-long ul,
+.project-description-long h3 {
+  margin-left: 0;
+  margin-right: 0;
+  line-height: 1.6;
+}
+
+.project-description-long ul {
+  padding-left: 20px;
+  margin-left: 0;
+}
+
+.project-description-long h3 {
+  max-width: none;
+  margin: 30px auto 15px auto;
+}
+
+/* ====== تنسيق نجمة الميزات في المشروع ====== */
+.project-description-long ul li[data-lang-key^="project-1-feature"] {
+  position: relative;
+  padding-left: 18px;    /* مساحة للنجمة */
+  margin-bottom: 6px !important;
+  line-height: 1.4;
+  font-weight: normal;
+}
+
+/* نجمة حمراء قبل نص الميزات */
+.project-description-long ul li[data-lang-key^="project-1-feature"]::before {
+  content: "*";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/* دعم اتجاه النص العربي RTL */
+html[dir="rtl"] .project-description-long ul li[data-lang-key^="project-1-feature"] {
+  padding-left: 0;
+  padding-right: 18px; /* نفس المسافة للنجمة من اليمين */
+}
+
+html[dir="rtl"] .project-description-long ul li[data-lang-key^="project-1-feature"]::before {
+  left: auto;
+  right: 0;
+}
+
+/* ====== قسم الصور واللقطات ====== */
+.project-screenshots {
+  margin-top: 40px;
+}
+
+.project-screenshots .screenshot-grid {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  align-items: center;
+}
+
+/* قائمة الروابط داخل قسم الصور (إذا موجودة) */
+.project-screenshots ul {
+  list-style: none; /* حذف علامات القائمة */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  direction: inherit;
+}
+
+.project-screenshots ul li {
+  display: inline-block;
+  position: relative;
+}
+
+/* حذف أي علامات قبل المحتوى */
+.project-screenshots ul li::before,
+.project-screenshots ul li::marker {
+  content: none !important;
+  display: none !important;
+}
+
+.project-screenshots ul li a {
+  color: var( --color-8);
+  text-decoration: none;
+  white-space: nowrap; /* منع انكسار الرابط */
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.project-screenshots ul li a:hover,
+.project-screenshots ul li a:focus {
+  color: var(--primary-color);
+  text-decoration: underline;
+  transform: scale(1.05) ;
+  
+}
+
+.project-navigation a {
+  color: var(--color-2);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.project-navigation a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+  transform: scale(1.05);
+}
+
+/* ====== قسم روابط المشروع ====== */
+.project-links {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.project-links ul {
+  list-style: none; /* حذف علامات القائمة */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  direction: inherit;
+}
+
+.project-links ul li {
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
+}
+
+/* حذف أي علامات قبل المحتوى */
+.project-links ul li::before,
+.project-links ul li::marker {
+  content: none !important;
+  display: none !important;
+}
+
+.project-links ul li a {
+  color: var(--color-2);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.project-links ul li a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+  transform: scale(1.05) ;
+}
+.project-screenshots img {
+  width: 220px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+/* تكبير عند المرور */
+.project-screenshots img:hover {
+  transform: scale(1.2);
+  z-index: 10;
+  position: relative;
+}
+
+/* تكبير عند الضغط */
+.project-screenshots img:active {
+  transform: scale(1.3);
+}
+
+/* خلفية سوداء شفافة */
+.lightbox-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: zoom-out;
+  z-index: 9999;
+}
+
+/* صورة بحجم مناسب داخل النافذة */
+.lightbox-overlay img {
+  max-width: 75%;
+  max-height: 75%;
+  box-shadow: 0 0 20px #000;
+  border-radius: 8px;
+}
+
+/* ====== مسافات بين أقسام المشروع ====== */
+#project-details p,
+#project-details ul {
+  margin-bottom: 25px;
+}
+
+/* ====== استجابة الشاشات الصغيرة ====== */
+@media (max-width: 600px) {
+  .project-tech,
+  .project-description-long {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+}
+
+/* ====== Projects Section ====== */
+.project-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  background: var(--color-2);
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.project-item:hover {
+  background: var(--color-20);
+  transform: translateY(-3px);
+  border-color: var(--primary-color);
+  box-shadow: 0 5px 15px var(--color-21);
+}
+
+.project-description-long > h3,
+.project-description-long .project-screenshots > h3 {
+  color: var(--color-13);
+}
+
+.project-item p {
+  color: var(--medium-text);
+  margin-bottom: 0;
+}
+
+.project-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0 10px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 1rem;
+  color: var(--color-2t);
+}

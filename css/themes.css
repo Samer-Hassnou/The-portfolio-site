@@ -1,0 +1,58 @@
+:root {
+    
+    --color-1: #cfec0e;
+    --color-2: #cfec0e;
+    --color-3: #333333;
+    --color-4: #222222;
+    --color-5: #cfec0e;
+    --color-6: #cfec0e;
+    --color-7: #555555;
+    --color-8: #cfec0e;
+    --color-9: #cfec0e;
+    --color-10: #8ba590;
+    --color-11: #cfec0e;
+    --color-12: #cfec0e;
+    --color-13: #c5fb23;
+    --color-14: #cfec0e;
+    --color-15: #444444;
+    --color-16: #444444;
+    --color-17: #000000;
+    --color-18: #000000;
+    --color-19: #000000;
+    --color-20: #444444;
+    --color-21: #000000;
+    --color-22: #444444;
+    --color-23: #444444;
+    --color-24: #bbaacc;
+    --color-55: #cfec0e;
+    
+    --toggle-experience-bg: #f9f9f9;
+    --toggle-experience-hover-bg: #eaeaea;
+    --toggle-experience-text: #666;
+    --exp-details-border: #ddd;
+
+ 
+    --primary-color: var(--color-1);
+    --secondary-color: var(--color-2);
+    --dark-bg: var(--color-3);
+    --darker-bg: var(--color-4);
+    --light-text: var(--color-5);
+    --medium-text: var(--color-6);
+    --dark-text: var(--color-4);
+    --border-color: var(--color-7);
+    --transition-speed: 0.3s;
+    --header-height: 170px;
+    --download-btn-bg: var(--color-8);
+    --download-btn-bg-hover: var(--color-9);
+    --download-btn-text: var(--color-10);
+    --lang-btn-bg: var(--color-11);
+    --lang-btn-bg-hover: var(--color-12);
+    --lang-btn-active-border: var(--color-1);
+    --lang-btn-size: 30px;
+    --nav-bg: var(--color-13);
+    --nav-active: var(--color-14);
+    --accordion-header: var(--color-15);
+    --accordion-active: var(--color-7);
+    --skill-category: var(--color-15);
+    --project-bg: var(--color-16);
+}
